@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    background: #7d221a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493232, #ff0000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493232, #ff0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    scroll-behavior: smooth;
+
+}
+.columna1{
+    width: 50%;
+    height: 100vh;
+    border-radius: 50%;
+    object-fit: cover
+    }
+.columna2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    height: 100vh;
+}
+.tecnologias{
+    display: flex;
+    flex-direction: row;
+    
+    height: 25vh;
+}
+.tecnologias{
+    display: flex;
+    width: 150vh;
+    margin: 15px auto;
+    overflow-x: auto;
+    height: 50vh;
+    scroll-behavior: smooth;
+}
+.ng{
+    width: 500px;
+    border: 1px solid red;
+    height: 300px;
+    margin: 25px 0;
+    border-radius: 145px;
+    clip-path: polygon(51% 0, 100% 13%, 95% 77%, 50% 100%, 6% 82%, 1% 13%);
+}
+.ts{
+    height: 100%;
+    margin-left: 54px;
+    margin-right: 54px;
+}
+.carousel-item{
+  height: 100vh;
+}
+li {
+    list-style: none;
+ }
+footer{
+    background-color: rgba(81, 81, 81, 0.6);
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    margin-top: 75px;
+}
+i{
+    font-size: 45px;
+}
+a{
+    text-decoration: none;
+}
+.texto{
+    font-size: 25px;
+}
+.formulario{
+  box-sizing: border-box;
+
+    border: 1px solid black;
+    width: 55vh;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+    background-color: #b59b9b;
+}
+.formulario input{
+  border-radius: 15px;
+  width: 100%;
+}
+
+.Carucul_body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, white, pink);
+  }
+  .Carucul_container {
+    width: 250px;
+    height: 200px;
+    perspective: 1000px;
+    position: relative;
+  }
+  .carrusel {
+    transform-style: preserve-3d;
+    position: absolute;
+    width: 250px;
+    transition: all 13s ease;
+  }
+  .Carucul_item {
+    width: 250px;
+    position: absolute;
+  }
+  .Carucul_item img {
+    width: 100%;
+  }
+  .a {
+    transform: rotateY(0deg) translateZ(250px);
+  }
+  .b {
+    
+    height: 250px;
+    object-fit: cover;
+    transform: rotateY(60deg) translateZ(250px);
+  }
+  .c {
+    
+    transform: rotateY(120deg) translateZ(250px);
+  }
+  .d {
+    transform: rotateY(180deg) translateZ(250px);
+  }
+  .e {
+    transform: rotateY(240deg) translateZ(250px);
+  }
+  .f {
+    transform: rotateY(300deg) translateZ(250px);
+  }
+  .carrusel:hover {
+    transform: rotateY(360deg);
+  }
+  .hablandodemi{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
